@@ -1,0 +1,10 @@
+{
+  "require": {
+    "silex/silex": "1.0.*",
+    "twig/twig": ">=1.8,<2.0-dev"
+  },
+  "require-dev":{
+    "symfony/browser-kit":"2.1.2"
+  },
+  "minimum-stability": "dev"
+}
