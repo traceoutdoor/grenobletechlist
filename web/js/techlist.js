@@ -1,16 +1,19 @@
 TechList.Map = TechList.Map || {};
       
-TechList.Map.init = function(centerCoord, mapId, zoomLevel, mapType) {
-  TechList.Map.canvas = new mxn.Mapstraction(mapId, 'leaflet');
-  TechList.Map.canvas.setMapType(mapType);
-        
-  TechList.Map.canvas.setCenterAndZoom(new mxn.LatLonPoint(centerCoord.lat, centerCoord.lng), zoomLevel);
-  TechList.Map.canvas.addControls({
-    zoom: 'large' || 'small'
-  });
+TechList.init = function(cityCoord) {
+  TechList.Map.init(cityCoord, 'map', 12, mxn.Mapstraction.ROADMAP);
+  TechList.addInvestors();
 };
-      
-TechList.Map.addMarker = function(markerCoord) {
-  var marker = new mxn.Marker(new mxn.LatLonPoint(markerCoord.lat, markerCoord.lng));
-  TechList.Map.canvas.addMarker(marker);
+
+TechList.addInvestors = function() {
+  $.get('/api/'+TechList.City.slug+'/investors', function(investors) {
+    for(var i=0; i<investors.length; i++) {
+      TechList.Map.addMarker(investors[0]);
+    }
+    
+    $('#investors').html(_.template($('#details-template').html(), { 
+      id: 'investors', 
+      h2: investors.length + ' Investors'
+    }));
+  });
 };
