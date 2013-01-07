@@ -15,11 +15,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/techlist.css">
 
-    <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.3.1/leaflet.css" />
-    <!--[if lte IE 8]>
-      <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.3.1/leaflet.ie.css" />
-    <![endif]-->
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDogBbOgGdDo3Jk_1iI6AvxI_6ftgDaOh0&sensor=true"></script>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
@@ -34,13 +30,11 @@
     <script>
       var TechList = TechList || {};
     </script>
-    
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-    <script src="//cdn.leafletjs.com/leaflet-0.3.1/leaflet.js"></script>
-    <script src="js/vendor/mapstraction/mxn.js?(leaflet)"></script> 
     <script src="js/vendor/underscore-1.4.3.min.js"></script>
-    
+
     <script src="js/plugins.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/techlist.js"></script>
@@ -52,7 +46,7 @@
         <div></div>
       </div>
     </script>
-    
+
     <script>
       $(document).ready(function() {
         TechList.City = {name: 'Grenoble', slug:'grenoble', lat: 45.183, lng: 5.717};
