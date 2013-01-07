@@ -4,8 +4,14 @@ $app = require __DIR__ . '/bootstrap.php';
 
 $app['debug'] = true;
 
+$app->get('/api/{city}/startups', function () use ($app) {
+          $startups = array();
+          
+          return $app->json($startups);
+        });
+        
 $app->get('/api/{city}/investors', function () use ($app) {
-          $mockedInvestors = array(
+          $investors = array(
               array(
                   'name' => 'Grenoble Angels',
                   'address' => 'CCI de Grenoble, 1 Place André Malraux BP 297, 38016, Grenoble',
@@ -18,9 +24,27 @@ $app->get('/api/{city}/investors', function () use ($app) {
               )
           );
           
-          return $app->json($mockedInvestors);
+          return $app->json($investors);
         });
 
+$app->get('/api/{city}/incubators', function () use ($app) {
+          $incubators = array();
+          
+          return $app->json($incubators);
+        });
+        
+$app->get('/api/{city}/coworking-spaces', function () use ($app) {
+          $coworkingSpaces = array();
+          
+          return $app->json($coworkingSpaces);
+        });
+        
+$app->get('/api/{city}/other-organizations', function () use ($app) {
+          $otherOrganizations = array();
+          
+          return $app->json($otherOrganizations);
+        });
+        
 $app->get('/', function () use ($app) {
           return $app['twig']->render('index.html');
         });
