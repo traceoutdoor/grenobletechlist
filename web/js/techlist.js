@@ -1,7 +1,7 @@
 TechList.Map = TechList.Map || {};
       
 TechList.init = function(cityCoord) {
-  TechList.Map.init(cityCoord, 'map', 12, google.maps.MapTypeId.ROADMAP);
+  TechList.Map.init(cityCoord, 'map', 13, google.maps.MapTypeId.ROADMAP);
   TechList.addStartups();
   TechList.addInvestors();
   TechList.addIncubators();
@@ -29,14 +29,16 @@ TechList.addOtherOrganizations = function() {
   TechList.addOrganizations('Autres organisations', 'other-organizations', 'other-organizations', 'DB8000');
 };
 
-TechList.addOrganizations = function(organizationName, organizationSlug, organizationTypeId, pinColor) {
+TechList.addOrganizations = function(organizationType, organizationSlug, organizationTypeId, pinColor) {
   $.get('/api/'+TechList.City.slug+'/'+organizationSlug, function(organizations) {
     for(var i=0; i<organizations.length; i++) {
-      TechList.Map.addMarker(organizations[0], pinColor);
+      var organization = organizations[i];
+      var organizationMarker = TechList.Map.addMarker(organization, pinColor);
+      TechList.Map.addInfoWindow(organizationMarker, organization, organizationType);
     }
     $('#'+organizationTypeId).html(_.template($('#details-template').html(), { 
       id: organizationTypeId, 
-      h2: (organizations.length || 0) + ' ' + organizationName
+      h2: (organizations.length || 0) + ' ' + organizationType
     }));
   });
 };
