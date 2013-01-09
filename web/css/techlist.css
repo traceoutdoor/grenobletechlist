@@ -31,3 +31,27 @@ h3 {
   background-color: #FFFFFF;
   padding:10px;
 }  
+
+#startups .icon-map-marker {
+  color: #F23F3F;
+}
+
+#investors .icon-map-marker {
+  color: #4EA83E;
+}
+
+#incubators .icon-map-marker {
+  color: #DBD400;
+}
+
+#coworking-spaces .icon-map-marker {
+  color: #378BDE;
+}
+
+#other-organizations .icon-map-marker {
+  color: #DB8000;
+}
+
+#footer {
+  text-align: center;
+}
