@@ -1,67 +1,32 @@
+body {
+  background: url(/img/cream_dust.png) repeat 0 0;
+}
+
+.spaceT10 {
+  margin-top: 10px;
+}
+
+.spaceB10 {
+  margin-bottom: 10px;
+}
+
 h1 {
   margin-bottom: 20px;
 }
 
+h3 {
+  font-weight: 300;
+}
+
 #map {
-  height: 500px;
+  height: 450px;
 }
 
 #map img {
   max-width: none;
 }
 
-
-body {background: #f2f3f4;}
-
-.img-rounded{
-	border:solid 1px #eee;
-}
-
-.card{
-	background:#fff;
-	width:200px;
-	margin:40px;
-	padding:6px 10px 0px 10px;
-	border:solid 1px #eee;
-	min-height: 100px;
-  	float:left;
-}
-
-.card_logo {
-	display:table-cell;
-	vertical-align: middle;
-  height: 72px;
-  width: 72px;
-  margin-right:10px;
-  //float:left;
-}
-
-.card_header{
-  height:72px;
-}
-
-.card_name{
-  display:table-cell;
-  padding:0px 10px 9px 10px;
-  height:72px;
-  vertical-align:middle;
-}
-
-.card_address{
-  padding:20px 10px 20px 10px;
-  line-height:15px;
-}
-
-.card_website{
-  padding:10px 0px 10px 0px;
-  overflow:hidden;
-  line-height:20px;
-}
-
-hr{
-  margin:0; 
-}
-
-#startups, #investors, #incubators, #coworking-spaces, #other-organizations{
-	min-height: 500px;
-}
+.thumbnail {
+  color: #7D838B;
+  background-color: #FFFFFF;
+}  

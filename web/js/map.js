@@ -29,14 +29,28 @@ TechList.Map.addMarker = function(organization, pinColor) {
   });
 };
 
+TechList.Map.InfoWindow = null;
+
 TechList.Map.addInfoWindow = function(organizationMarker, organization, organizationType) {
-  var infowindow = new google.maps.InfoWindow({
-    content: _.template($('#info-window-template').html(), { 
-      organizationName: organization.name, 
-      organizationType: organizationType
-    })
-  });
   google.maps.event.addListener(organizationMarker, 'click', function() {
-    infowindow.open(TechList.Map.canvas,organizationMarker);
+    if(TechList.Map.InfoWindow) {
+      TechList.Map.InfoWindow.close();
+    }
+  
+    TechList.Map.InfoWindow = new google.maps.InfoWindow({
+      content: _.template($('#info-window-template').html(), { 
+        organizationName: organization.name,
+        organizationType: organizationType,
+        organizationAddress: organization.address,
+        organizationWebsite: organization.website,
+        organizationTwitter: organization.twitter
+      })
+    });
+    
+    TechList.Map.InfoWindow.open(TechList.Map.canvas, organizationMarker);
+    
+    google.maps.event.addListener(TechList.Map.InfoWindow, 'domready', function() {
+      TechList.loadTwitterWidget();
+    });
   });
 };
