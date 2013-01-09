@@ -31,15 +31,23 @@ TechList.addOtherOrganizations = function() {
 
 TechList.addOrganizations = function(organizationType, organizationSlug, organizationTypeId, pinColor) {
   $.get('/api/'+TechList.City.slug+'/'+organizationSlug, function(organizations) {
-    for(var i=0; i<organizations.length; i++) {
-      var organization = organizations[i];
-      var organizationMarker = TechList.Map.addMarker(organization, pinColor);
-      TechList.Map.addInfoWindow(organizationMarker, organization, organizationType);
-    }
     $('#'+organizationTypeId).html(_.template($('#details-template').html(), { 
       id: organizationTypeId, 
       h2: (organizations.length || 0) + ' ' + organizationType
     }));
+    for(var i=0; i<organizations.length; i++) {
+      var organization = organizations[i];
+      var organizationMarker = TechList.Map.addMarker(organization, pinColor);
+      TechList.Map.addInfoWindow(organizationMarker, organization, organizationType);
+      $('#'+organizationTypeId).append(_.template($('#card-template').html(), {
+        name: organization.name,
+        logo: organization.logo,
+        address:organization.address,
+        website:organization.website,
+        twitter:organization.twitter,
+        email:organization.email
+      }));
+    }
   });
 };
 

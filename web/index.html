@@ -43,16 +43,35 @@
     <script src="js/map.js"></script>
 
     <script type="text/template" id="details-template">
-      <div id="<%= id %>">
-        <h2><%= h2 %></h2>
-        <div></div>
-      </div>
+      <h2><%= h2 %></h2>
     </script>
     
     <script type="text/template" id="info-window-template">
       <div>
         <h3><%= organizationName %></h2>
         <em><%= organizationType %></em>
+      </div>
+    </script>
+
+    <script type="text/template" id="card-template">
+      <div class="card">
+        <div class="card_header">
+          <div class="card_logo">
+            <img src="<%= logo %>" class="img-rounded" />
+          </div>
+          <div class="card_name">
+            <h4><%= name %></h4>
+          </div>
+        </div>
+        <div class="card_address">
+          <small><em><%= address %></em></small>
+        </div>
+        <hr />
+        <div class="card_website">
+          <small>Site : <a href="#"><%= website %></a></small><br />
+          <small>Twitter : <a href="#"><%= twitter %></a></small><br />
+          <small>Mail : <a href="#"><%= email %></a></small>
+        </div>
       </div>
     </script>
 
