@@ -1,8 +1,15 @@
-<IfModule mod_rewrite.c>
-    Options -MultiViews
+Options +FollowSymLinks +ExecCGI
 
-    RewriteEngine On
-    #RewriteBase /path/to/app
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ index.php [L]
+<IfModule mod_rewrite.c>
+  #Options -MultiViews
+  RewriteEngine On
+
+  # redirect www to non-www
+  RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+  RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+  RewriteEngine On
+  #RewriteBase /path/to/app
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^ index.php [L]
 </IfModule>
