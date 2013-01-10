@@ -27,16 +27,6 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'twitter' => array('wizbii')
               ),
             array(
-                  'name' => 'Mancala Networks',
-                  'address' => '15 Avenue du Granier, 38240 Meylan',
-                  'logo' => 'https://twimg0-a.akamaihd.net/profile_images/754430684/vertical.color.white_bg300.png',
-                  'lat' => '45.20977',
-                  'lng' => '5.78217',
-                  'email' => 'info@mancalanetworks.com',
-                  'website' => 'http://www.mancalanetworks.com/',
-                  'twitter' => array('mancalanetworks')
-              ),
-            array(
                   'name' => 'Ethera',
                   'address' => '7, Parvis Louis Néel, BP 50, F-38040 Grenoble Cedex 9',
                   'logo' => 'https://si0.twimg.com/profile_images/1119710971/Picto_Avatar.jpg',
@@ -47,6 +37,8 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'twitter' => array('EtheraLabs')
               )
             );
+          
+          shuffle($startups);
           
           return $app->json($startups);
         });
@@ -95,6 +87,8 @@ $app->get('/api/{city}/investors', function () use ($app) {
               )
           );
           
+          shuffle($investors);
+          
           return $app->json($investors);
         });
 
@@ -142,6 +136,8 @@ $app->get('/api/{city}/incubators', function () use ($app) {
               )  
           );
           
+          shuffle($incubators);
+          
           return $app->json($incubators);
         });
         
@@ -157,6 +153,8 @@ $app->get('/api/{city}/coworking-spaces', function () use ($app) {
               )
           );
           
+          shuffle($coworkingSpaces);
+          
           return $app->json($coworkingSpaces);
         });
         
@@ -171,6 +169,8 @@ $app->get('/api/{city}/other-organizations', function () use ($app) {
                   'twitter' => array('aperopreneurs')
               )
             );
+          
+          shuffle($otherOrganizations);
           
           return $app->json($otherOrganizations);
         });

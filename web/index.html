@@ -25,13 +25,23 @@
   </head>
   <body>
     <div class="container">
-      <h1>Grenoble Tech List</h1>
+      <div class="clearfix">
+        <h1 class="pull-left">Grenoble Tech List</h1>
+        <a href="#" class="btn btn-large btn-success pull-right spaceT10">+ Ajouter une organisation</a>
+      </div>
+      <blockquote>
+        <p>Une carte de Grenoble pour repérer les startups, les investisseurs, les incubateurs et tous les acteurs de l'économie numérique.</p>
+      </blockquote>
       <div id="map"></div>
       <div id="startups"></div>
       <div id="investors"></div>
       <div id="incubators"></div>
       <div id="coworking-spaces"></div>
       <div id="other-organizations"></div>
+      <div id="footer" class="spaceB10">
+        <p>Inspiré de <a href="http://paristechlist.fr/all" target="_blank">Paris Tech List</a>, développé par <a href="https://twitter.com/jonathanbonzy">Jonathan Bonzy</a> et <a href="https://twitter.com/PierreFelgines">Pierre Felgines</a> à Grenoble !</p>
+        <p>Contact : <a href="mailto:grenoble-tech-list@googlegroups.com">grenoble-tech-list@googlegroups.com</a></p>
+      </div>
     </div>
 
     <script>
@@ -47,9 +57,9 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/techlist.js"></script>
     <script src="js/map.js"></script>
-    
+
     <script type="text/template" id="details-template">
-      <h2 class="page-header"><%= h2 %></h2>
+      <h2 class="page-header"><%= h2 %> <i class="icon-map-marker pull-right"></i></h2>
       <ul class="thumbnails"></ul>
     </script>
 
@@ -101,7 +111,7 @@
       </div>
     </li>
   </script>
-  
+
   <script>
     $(document).ready(function() {
       TechList.City = {name: 'Grenoble', slug:'grenoble', lat: 45.183, lng: 5.717};
