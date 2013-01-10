@@ -29,6 +29,13 @@ TechList.addOtherOrganizations = function() {
   TechList.addOrganizations('Autres organisations', 'other-organizations', 'other-organizations', 'DB8000');
 };
 
+shorten_URL = function(url){
+  if (url.length > 35){
+    url = url.substring(0, 32) + '...';
+  }
+  return url;
+}
+
 TechList.addOrganizations = function(organizationType, organizationSlug, organizationTypeId, pinColor) {
   $.get('/api/'+TechList.City.slug+'/'+organizationSlug, function(organizations) {
     $('#'+organizationTypeId).html(_.template($('#details-template').html(), { 
@@ -46,6 +53,7 @@ TechList.addOrganizations = function(organizationType, organizationSlug, organiz
         organizationName: organization.name,
         organizationAddress: organization.address,
         organizationWebsite: organization.website,
+        organizationWebsiteShort: shorten_URL(organization.website),
         organizationTwitter: organization.twitter
       }));
     }
