@@ -52,6 +52,7 @@ TechList.addOrganizations = function(organizationType, organizationSlug, organiz
       $('#'+organizationTypeId + ' ul').append(_.template($('#card-template').html(), {
         organizationName: organization.name,
         organizationAddress: organization.address,
+        organizationLogo: organization.logo,
         organizationWebsite: organization.website,
         organizationWebsiteShort: shorten_URL(organization.website),
         organizationTwitter: organization.twitter

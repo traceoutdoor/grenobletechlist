@@ -146,6 +146,7 @@ $app->get('/api/{city}/coworking-spaces', function () use ($app) {
             array(
                   'name' => 'Col\'inn',
                   'address' => '34, avenue Felix Viallet, 38000 Grenoble',
+                  'logo' => 'https://si0.twimg.com/profile_images/2813570537/9936a4db9f29471ff19c45515f9f3472.jpeg',
                   'lat' => '45.19084',
                   'lng' => '5.71874',
                   'website' => 'http://www.col-inn.net/',
@@ -163,6 +164,7 @@ $app->get('/api/{city}/other-organizations', function () use ($app) {
             array(
                   'name' => 'Apéro Entrepreneurs',
                   'address' => '4 Rue Montorge, 38000 Grenoble',
+                  'logo' => 'https://si0.twimg.com/profile_images/1227212489/logo_carr_.png',
                   'lat' => '45.19139',
                   'lng' => '5.72712',
                   'website' => 'http://aperoentrepreneurs.com/grenoble/show/',
