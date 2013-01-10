@@ -32,11 +32,8 @@ h3 {
   padding:10px;
 }  
 
-.title img{
-  height:50px;
-  width:50px;
-  float:left;
-  margin:0px 10px 20px 10px;
+.thumbnail h3 {
+  margin: 0;
 }
 
 .details{
@@ -65,4 +62,16 @@ h3 {
 
 #footer {
   text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .thumbnail .span2 {
+    width: 145px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .thumbnail .span2 {
+    width: 80px;
+  }
 }
