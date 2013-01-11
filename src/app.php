@@ -57,6 +57,17 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'website' => 'http://www.shoppingadventure.fr/',
                   'description' => 'Moteur de shopping local, nous aidons les internautes et mobinautes à trouver le produit de leur rêve près de chez eux.',
                   'twitter' => array('remialvado', 'kbrwadventure')
+              ),
+            array(
+                  'name' => 'Nuage Touch',
+                  'address' => '38400 Saint Martin d\'Hères',
+                  'logo' => 'http://nuagetouch.com/images/logo.png',
+                  'lat' => '',
+                  'lng' => '',
+                  'email' => 'http://nuagetouch.com',
+                  'website' => 'jeremie@nuagetouch.com',
+                  'description' => 'On fait des jeux et des apps minimalistes sur iPhone et iPad.',
+                  'twitter' => array('nuagetouch', 'thomascastel', 'dr_cube', 'akonieczny')
               )
             );
           
