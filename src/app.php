@@ -35,6 +35,28 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'email' => 'info@ethera-labs.com',
                   'website' => 'http://www.ethera-labs.com/',
                   'twitter' => array('EtheraLabs')
+              ),
+            array(
+                  'name' => 'TraceDirecte',
+                  'address' => 'ZA de longifan, 38530 Chapareillan',
+                  'logo' => 'http://www.tracedirecte.com/images/GBI_TRACEDIRECTE/logo.png',
+                  'lat' => '45.467798',
+                  'lng' => '5.993178',
+                  'email' => 'romain.chauny@tracedirecte.com',
+                  'website' => 'http://www.tracedirecte.com/',
+                  'description' => 'Voyage sur mesure en direct avec des agences locales',
+                  'twitter' => array('tracedirecte')
+              ),
+            array(
+                  'name' => 'Shopping Adventure',
+                  'address' => '85 rue des Alliés, 38000 Grenoble',
+                  'logo' => 'http://www.shoppingadventure.fr/bundles/kbrwregularwebsite/images/logo.png',
+                  'lat' => '45.184166',
+                  'lng' => '5.715542',
+                  'email' => 'remi.alvado@gmail.com',
+                  'website' => 'http://www.shoppingadventure.fr/',
+                  'description' => 'Moteur de shopping local, nous aidons les internautes et mobinautes à trouver le produit de leur rêve près de chez eux.',
+                  'twitter' => array('remialvado', 'kbrwadventure')
               )
             );
           
@@ -169,6 +191,28 @@ $app->get('/api/{city}/other-organizations', function () use ($app) {
                   'lng' => '5.72712',
                   'website' => 'http://aperoentrepreneurs.com/grenoble/show/',
                   'twitter' => array('aperopreneurs')
+              ),
+            array(
+                  'name' => '2MSens',
+                  'address' => '155 - 157 Cours Berriat, 38000 Grenble',
+                  'logo' => 'http://www.isere-numerique.com/files/logo/societes/logo_2msens_7796.jpg',
+                  'lat' => '45.187992',
+                  'lng' => '5.704533',
+                  'email' => 'benoit.collet@2msens.com',
+                  'website' => 'http://www.2msens.com/',
+                  'description' => 'Cabinet de conseil pour les éditeurs de logiciels, l\'industrie numérique et digitale.',
+                  'twitter' => array('Benoit_Collet', 'Marie_Lamour', 'Tweetsandsoft', '2msens')
+              ),
+            array(
+                  'name' => 'Minalogic',
+                  'address' => '3, parvis Louis Néel 38054 Grenoble cedex 9',
+                  'logo' => 'http://www.minalogic.com/images/SIT_MINA/logo.png',
+                  'lat' => '45.19574',
+                  'lng' => '5.71005',
+                  'email' => 'contact@minalogic.com',
+                  'website' => 'http://www.minalogic.com',
+                  'description' => 'Pôle de compétitivité mondial, Minalogic accompagne les porteurs d\'innovation, petits et grands, dans leur projet. Ce réseau de partenaires spécialisés dans les systèmes miniaturisés intelligents active la rencontre des innovateurs, des industriels et des financeurs pour porter collectivement une technologie jusqu\'à son marché. En assurant la cohésion du triangle industrie-recherche-formation au plan régional et son rayonnement au rang mondial, Minalogic s\'est imposé comme un acteur incontournable de la région Rhône-Alpes.',
+                  'twitter' => array('Minalogic')
               )
             );
           
