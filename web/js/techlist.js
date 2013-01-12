@@ -60,9 +60,20 @@ TechList.addOrganizations = function(organizationType, organizationSlug, organiz
     }
     
     TechList.loadTwitterWidget();
+    
+    TechList.masonry();
   });
 };
 
 TechList.loadTwitterWidget = function() {
   twttr.widgets.load();
-}
+};
+
+TechList.masonry = function() {
+  var container = $('.thumbnails').not('.no-masonry');
+  container.imagesLoaded(function(){
+    container.masonry({
+      itemSelector : '.span3'
+    });
+  });
+};
