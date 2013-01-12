@@ -7,16 +7,6 @@ $app['debug'] = true;
 $app->get('/api/{city}/startups', function () use ($app) {
           $startups = array(
             array(
-                  'name' => 'Sogilis',
-                  'address' => '1, place Firmin Gautier 38000 Grenoble',
-                  'logo' => 'https://dl.dropbox.com/sh/a8jxbpxbckf2naa/bw_aps0BtN/images/sogilis.png',
-                  'lat' => '45.19079',
-                  'lng' => '5.71206',
-                  'email' => 'contact@sogilis.com',
-                  'website' => 'http://sogilis.com/',
-                  'twitter' => array()
-              ),
-            array(
                   'name' => 'Wizbii',
                   'address' => '6 rue Etienne Marcel, 38000 Grenoble',
                   'logo' => 'https://dl.dropbox.com/sh/a8jxbpxbckf2naa/cBYu2aZcHl/images/wizbii.jpg',
@@ -89,6 +79,16 @@ $app->get('/api/{city}/startups', function () use ($app) {
         
 $app->get('/api/{city}/investors', function () use ($app) {
           $investors = array(
+              array(
+                  'name' => 'Sogilis',
+                  'address' => '1, place Firmin Gautier 38000 Grenoble',
+                  'logo' => 'https://dl.dropbox.com/sh/a8jxbpxbckf2naa/bw_aps0BtN/images/sogilis.png',
+                  'lat' => '45.19079',
+                  'lng' => '5.71206',
+                  'email' => 'contact@sogilis.com',
+                  'website' => 'http://sogilis.com/',
+                  'twitter' => array()
+              ),
               array(
                   'name' => 'Grenoble Angels',
                   'address' => 'CCI de Grenoble, 1 Place André Malraux BP 297, 38016, Grenoble',
