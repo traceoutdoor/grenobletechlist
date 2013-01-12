@@ -51,12 +51,20 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
     <script src="js/vendor/underscore-1.4.3.min.js"></script>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+    
+    <script>
+      window.twttr = (function (d,s,id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+        js.src="//platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      }(document, "script", "twitter-wjs"));
+    </script>
+    
     <script src="js/plugins.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/vendor/jquery.masonry.min.js"></script>
-    
+
     <script src="js/techlist.js"></script>
     <script src="js/map.js"></script>
 
@@ -91,47 +99,47 @@
     </script>
 
     <script type="text/template" id="card-template">
-      <li class="span3">
-        <div class="thumbnail">
-          <div class="title row">
-            <div class="span1">
-              <img src="<%= organizationLogo %>" />
-            </div>
-            <div class="span2">
-              <h3><%= organizationName %></h3>
-            </div>
+    <li class="span3">
+      <div class="thumbnail">
+        <div class="title row">
+          <div class="span1">
+            <img src="<%= organizationLogo %>" />
           </div>
-          <div class="details">
-            <div class="spaceT10 spaceB10">
-              <a href="<%= organizationWebsite %>" target="_blank"><%= organizationWebsiteShort %></a>
-            </div>
-            <div class="spaceT10 spaceB10">
-              <i class="icon-map-marker"></i>
-              <span><%= organizationAddress %></span>
-            </div>
-            <% _.each(organizationTwitter, function(organizationTwitterUsername) { %> 
-            <div class="spaceT10 spaceB10">
-              <a href="https://twitter.com/<%= organizationTwitterUsername %>" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @<%= organizationTwitterUsername %></a>
-            </div>
-            <% }); %> 
+          <div class="span2">
+            <h3><%= organizationName %></h3>
           </div>
         </div>
-      </li>
-    </script>
+        <div class="details">
+          <div class="spaceT10 spaceB10">
+            <a href="<%= organizationWebsite %>" target="_blank"><%= organizationWebsiteShort %></a>
+          </div>
+          <div class="spaceT10 spaceB10">
+            <i class="icon-map-marker"></i>
+            <span><%= organizationAddress %></span>
+          </div>
+          <% _.each(organizationTwitter, function(organizationTwitterUsername) { %> 
+          <div class="spaceT10 spaceB10">
+            <a href="https://twitter.com/<%= organizationTwitterUsername %>" class="twitter-follow-button" data-show-count="false" data-lang="fr">Suivre @<%= organizationTwitterUsername %></a>
+          </div>
+          <% }); %> 
+        </div>
+      </div>
+    </li>
+  </script>
 
-    <script>
-      $(document).ready(function() {
-        TechList.City = {name: 'Grenoble', slug:'grenoble', lat: 45.183, lng: 5.717};
-        TechList.init(TechList.City);
-      });
-    </script>
+  <script>
+    $(document).ready(function() {
+      TechList.City = {name: 'Grenoble', slug:'grenoble', lat: 45.183, lng: 5.717};
+      TechList.init(TechList.City);
+    });
+  </script>
 
-    <!-- Google Analytics -->
-    <script>
-      var _gaq=[['_setAccount','UA-37588135-1'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-        s.parentNode.insertBefore(g,s)}(document,'script'));
-    </script>
-  </body>
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-37588135-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
 </html>

@@ -66,7 +66,9 @@ TechList.addOrganizations = function(organizationType, organizationSlug, organiz
 };
 
 TechList.loadTwitterWidget = function() {
-  twttr.widgets.load();
+  twttr.ready(function (twttr) {
+    twttr.widgets.load();
+  });
 };
 
 TechList.masonry = function() {
