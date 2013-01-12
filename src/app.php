@@ -54,8 +54,8 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'logo' => 'http://nuagetouch.com/images/logo.png',
                   'lat' => '',
                   'lng' => '',
-                  'email' => 'http://nuagetouch.com',
-                  'website' => 'jeremie@nuagetouch.com',
+                  'email' => 'jeremie@nuagetouch.com',
+                  'website' => 'http://nuagetouch.com',
                   'description' => 'On fait des jeux et des apps minimalistes sur iPhone et iPad.',
                   'twitter' => array('nuagetouch', 'thomascastel', 'dr_cube', 'akonieczny')
               ),
