@@ -195,6 +195,17 @@ $app->get('/api/{city}/coworking-spaces', function () use ($app) {
                   'lng' => '5.71874',
                   'website' => 'http://www.col-inn.net/',
                   'twitter' => array('Col_inn')
+              ),
+            array(
+                  'name' => "CoWork In Grenoble",
+                  'address' => '12 rue Servan 38000 Grenoble',
+                  'logo' => 'http://www.co-work.fr/wp-content/uploads/2012/12/logoweb-300x300.jpg',
+                  'lat' => '45.191345',
+                  'lng' => '5.733265',
+                  'email' => 'mathieu@grownoble.fr',
+                  'website' => 'http://www.co-work.fr/',
+                  'description' => 'Cowork in Grenoble, la communauté des freelances et des entrepreneurs.',
+                  'twitter' => array('MisterNiark', 'CoworkInGrenoble')
               )
           );
           
