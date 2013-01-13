@@ -216,7 +216,7 @@ $app->get('/api/{city}/coworking-spaces', function () use ($app) {
                   'email' => 'mathieu@grownoble.fr',
                   'website' => 'http://www.co-work.fr/',
                   'description' => 'Cowork in Grenoble, la communauté des freelances et des entrepreneurs.',
-                  'twitter' => array('MisterNiark', 'CoworkInGrenoble')
+                  'twitter' => array('MisterNiark', 'Coworkingre')
               )
           );
           
