@@ -27,7 +27,8 @@ $app->get('/api/{city}/{entity}', function ($city, $entity) use ($app) {
                 'lat' => (string) $content->{'lat'},
                 'lng' => (string) $content->{'lng'},
                 'email' => (string) $content->{'email'},
-                'website' => (string) $content->{'website'}
+                'website' => (string) $content->{'website'},
+                'description' => (string) $content->{'description'}
             );
             $twitterAccounts = array();
             foreach ($content->{'twitter'} as $twitterAccount) {

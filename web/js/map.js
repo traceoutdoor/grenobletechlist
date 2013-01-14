@@ -43,6 +43,7 @@ TechList.Map.addInfoWindow = function(organizationMarker, organization, organiza
         organizationType: organizationType,
         organizationAddress: organization.address,
         organizationWebsite: organization.website,
+        organizationDescription: TechList.truncateText(organization.description, 140),
         organizationTwitter: organization.twitter
       })
     });
