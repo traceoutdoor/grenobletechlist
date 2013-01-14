@@ -12,7 +12,7 @@ Map with startups, investors, incubators and all digital actors. Inspired by [Pa
 
 ## Launch a Tech List for your city
 
-Current version uses JSON files stored in 'uploads' directory. Each city has its own sub-directory.
+Current version uses JSON files stored in 'data' directory. Each city has its own sub-directory.
 
 
 #### web/index.html ####
