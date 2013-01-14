@@ -80,6 +80,50 @@ $app->get('/api/{city}/startups', function () use ($app) {
                   'website' => 'http://butterflyeffect.fr',
                   'description' => 'ButterflyEffect est une agence de développement d\'applications mobiles solidaires, principalement à destination des associations caritatives.',
                   'twitter' => array('butterflyeffect', 'siebmanb', 'blibersa', 'Quent1F')
+              ),
+            array(
+                  'name' => 'Drimki',
+                  'address' => '4 rue des méridiens 38130 Echirolles',
+                  'logo' => 'http://www.drimki.fr/img/frl/commons/immobilier-drimki.png',
+                  'lat' => '45.1486042',
+                  'lng' => '5.7261249',
+                  'email' => 'julien.ros@free.fr',
+                  'website' => 'http://www.drimki.fr/',
+                  'description' => 'Drimki développe des services immobiliers innovants et entièrement gratuits à destination des vendeurs et des acquéreurs, ainsi que des services de professionnels au travers de son activité de gestion de transactions immobilières.',
+                  'twitter' => array('rosjulien')
+              ),
+            array(
+                  'name' => 'Voxity',
+                  'address' => '85 rue des alliés, 38000 Grenoble',
+                  'logo' => 'http://static.wix.com/media/21ed30_91aff114d81d9a79bdc37f3f835c90c5.jpg',
+                  'lat' => '45.172565',
+                  'lng' => '5.722441',
+                  'email' => 'marketing@voxity.fr',
+                  'website' => 'http://www.voxity.fr',
+                  'description' => 'Télécommunication sur mesure pour les entreprises. Spécialiste VoIP dans le Cloud.',
+                  'twitter' => array('voxity')
+              ),
+            array(
+                  'name' => 'Itris Automation Square',
+                  'address' => '2, square Roger Genin 38000 Grenoble',
+                  'logo' => 'https://dl-web.dropbox.com/get/GrenobleTechList/images/Itris.png?w=ac729cc8',
+                  'lat' => '45.1890962',
+                  'lng' => '5.7166138',
+                  'email' => 'pauline.vettier@automationsquare.com',
+                  'website' => 'http://www.automationsquare.com/fr/',
+                  'description' => 'Itris Automation Square (IAS) est une société éditrice de logiciels qui fournit des outils de conversion, vérification et documentation pour les programmes automates. IAS aide ses clients à améliorer leurs process de développement, et ainsi à écrire des programmes de meilleure qualité plus rapidement. Spécialiste de la qualité logicielle et des standards de codage, les équipes d’IAS mettent en œuvre des technologies innovantes au service de l’industrie.',
+                  'twitter' => array('ItrisAutomation', 'EricPierrel')
+              ),
+            array(
+                  'name' => 'Naeka',
+                  'address' => '3 rue Général Ferrié 38100 Grenoble',
+                  'logo' => 'http://www.naeka.fr/static/img/logo.png',
+                  'lat' => '45.18025',
+                  'lng' => '5.72361',
+                  'email' => 'maxime@naeka.fr',
+                  'website' => 'http://www.naeka.fr',
+                  'description' => '',
+                  'twitter' => array('MaximeGaillard')
               )
             );
           
@@ -257,6 +301,17 @@ $app->get('/api/{city}/other-organizations', function () use ($app) {
                   'website' => 'http://www.minalogic.com',
                   'description' => 'Pôle de compétitivité mondial, Minalogic accompagne les porteurs d\'innovation, petits et grands, dans leur projet. Ce réseau de partenaires spécialisés dans les systèmes miniaturisés intelligents active la rencontre des innovateurs, des industriels et des financeurs pour porter collectivement une technologie jusqu\'à son marché. En assurant la cohésion du triangle industrie-recherche-formation au plan régional et son rayonnement au rang mondial, Minalogic s\'est imposé comme un acteur incontournable de la région Rhône-Alpes.',
                   'twitter' => array('Minalogic')
+              ),
+            array(
+                  'name' => 'Pôle oZer',
+                  'address' => '1025 avenue Centrale, 38400 St Martin d\'Hères',
+                  'logo' => 'http://www.grandsud-sn.fr/images/images_partenaires/img_1315207802207.jpg',
+                  'lat' => '45.19167',
+                  'lng' => '5.77037',
+                  'email' => 'jean-luc.finck@grenoble-univ.fr',
+                  'website' => 'http://www.ozer-entrepreneuriat.fr',
+                  'description' => 'Pôle Entrepreneuriat Etudiants Grenoble',
+                  'twitter' => array('oZergrenoble')
               )
             );
           
