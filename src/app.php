@@ -7,7 +7,7 @@ $app = require __DIR__ . '/bootstrap.php';
 //$app['debug'] = true;
 
 function getWorkingDirectory($city, $entity) {
-  $dir = __DIR__ . "/../uploads/$city/$entity";
+  $dir = __DIR__ . "/../data/$city/$entity";
   if (!is_dir($dir)) {
     mkdir($dir, 0755, true);
   }
