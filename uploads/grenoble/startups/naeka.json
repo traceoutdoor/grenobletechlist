@@ -1,0 +1,11 @@
+{
+  "name": "Naeka",
+  "address": "3 rue Général Ferrié 38100 Grenoble",
+  "logo": "http://www.naeka.fr/static/img/logo.png",
+  "lat": "45.18025",
+  "lng": "5.72361",
+  "email": "maxime@naeka.fr",
+  "website": "http://www.naeka.fr",
+  "description": "",
+  "twitter": ["MaximeGaillard"]
+}

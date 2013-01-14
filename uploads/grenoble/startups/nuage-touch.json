@@ -1,0 +1,11 @@
+{
+  "name": "Nuage Touch",
+  "address": "38400 Saint Martin d'Hères",
+  "logo": "http://nuagetouch.com/images/logo.png",
+  "lat": "45.165133",
+  "lng": "5.767761",
+  "email": "jeremie@nuagetouch.com",
+  "website": "http://nuagetouch.com",
+  "description": "On fait des jeux et des apps minimalistes sur iPhone et iPad.",
+  "twitter": ["nuagetouch", "thomascastel", "dr_cube", "akonieczny"]
+}

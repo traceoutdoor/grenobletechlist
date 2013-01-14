@@ -1,0 +1,11 @@
+{
+  "name": "Itris Automation Square",
+  "address": "2, square Roger Genin 38000 Grenoble",
+  "logo": "https://dl-web.dropbox.com/get/GrenobleTechList/images/Itris.png?w=ac729cc8",
+  "lat": "45.1890962",
+  "lng": "5.7166138",
+  "email": "pauline.vettier@automationsquare.com",
+  "website": "http://www.automationsquare.com/fr/",
+  "description": "Itris Automation Square (IAS) est une société éditrice de logiciels qui fournit des outils de conversion, vérification et documentation pour les programmes automates. IAS aide ses clients à améliorer leurs process de développement, et ainsi à écrire des programmes de meilleure qualité plus rapidement. Spécialiste de la qualité logicielle et des standards de codage, les équipes d’IAS mettent en œuvre des technologies innovantes au service de l’industrie.",
+  "twitter": ["ItrisAutomation", "EricPierrel"]
+}

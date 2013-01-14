@@ -1,10 +1,11 @@
 {
-    "name": "",
-    "address": "",
-    "logo": "",
-    "lat": "",
-    "lng": "",
-    "email": "",
-    "website": "",
-    "twitter": []
+  "name": "",
+  "address": "",
+  "logo": "",
+  "lat": "",
+  "lng": "",
+  "email": "",
+  "website": "",
+  "description": "",
+  "twitter": []
 }

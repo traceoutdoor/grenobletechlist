@@ -1,10 +1,11 @@
 {
-    "name": "ACEISP",
-    "address": "Espace Vaucanson, 82 rue Anatole France, 38100 Grenoble",
-    "logo": "https://dl.dropbox.com/sh/a8jxbpxbckf2naa/AN4I7dpone/images/aceisp.jpg",
-    "lat": "45.17285",
-    "lng": "5.70370",
-    "email": "",
-    "website": "http://www.aceisp.org/",
-    "twitter": []
+  "name": "ACEISP",
+  "address": "Espace Vaucanson, 82 rue Anatole France, 38100 Grenoble",
+  "logo": "https://dl.dropbox.com/sh/a8jxbpxbckf2naa/AN4I7dpone/images/aceisp.jpg",
+  "lat": "45.17285",
+  "lng": "5.70370",
+  "email": "",
+  "website": "http://www.aceisp.org/",
+  "description": "",
+  "twitter": []
 }
