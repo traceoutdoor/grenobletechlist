@@ -1,0 +1,10 @@
+{
+    "name": "Shopping Adventure",
+    "address": "85 rue des alliés, 38100 Grenoble",
+    "logo": "http://www.shoppingadventure.fr/bundles/kbrwregularwebsite/images/logo.png",
+    "lat": "45.184166",
+    "lng": "5.715542",
+    "email": "remi.alvado@gmail.com",
+    "website": "http://www.shoppingadventure.fr",
+    "twitter": ["remialvado", "kbrwadventure"]
+}

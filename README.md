@@ -12,7 +12,8 @@ Map with startups, investors, incubators and all digital actors. Inspired by [Pa
 
 ## Launch a Tech List for your city
 
-Current version use JSON objects stored in `src/app.php` file so you mainly just need update them and "search/replace" Grenoble with yout city name in `web/index.html`
+Current version uses JSON files stored in 'uploads' directory. Each city has its own sub-directory.
+
 
 #### web/index.html ####
 
@@ -25,7 +26,7 @@ Current version use JSON objects stored in `src/app.php` file so you mainly just
 
 #### src/app.php ####
 
-- Update data for each routes: `/api/{city}/startups`, ...
+- Update data for each routes: `/api/{city}/{entity}` where entity is "startups", "investors", ...
 
 ## Contact
 
