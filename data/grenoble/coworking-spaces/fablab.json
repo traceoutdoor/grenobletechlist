@@ -1,0 +1,11 @@
+{
+  "name": "Fablab CCSTI Grenoble",
+  "address": "1 place Saint Laurent 38000 Grenoble",
+  "logo": "http://fablab.ccsti-grenoble.org/sites/default/files/noImageProject.jpg",
+  "lat": "45.197719",
+  "lng": "5.732031",
+  "email": "fablab@ccsti-grenoble.org",
+  "website": "http://fablab.ccsti-grenoble.org/",
+  "description": "Cet espace ouvert à tous permet de concevoir et fabriquer ses propres objets à l'aide de machines à commande numérique : fraiseuse numérique, découpeuse laser, imprimante 3D. Munissez-vous de votre carte \"Fab Lab user\", et venez quand vous le voulez : pour ce programme, la Casemate étend ses horaires d'ouverture ! Animateurs et Fab manager vous accompagneront à choisir les bons matériaux et les bons outils.",
+  "twitter": ["FablabGrenoble"]
+}
