@@ -1,7 +1,7 @@
 TechList.Map = TechList.Map || {};
       
 TechList.init = function(cityCoord) {
-  TechList.Map.init(cityCoord, 'map', 13, google.maps.MapTypeId.ROADMAP);
+  TechList.Map.init(cityCoord, 'map', 12, google.maps.MapTypeId.ROADMAP);
   TechList.addStartups();
   TechList.addInvestors();
   TechList.addIncubators();

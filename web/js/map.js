@@ -6,7 +6,7 @@ TechList.Map.init = function(centerCoord, mapId, zoomLevel, mapType) {
     center: new google.maps.LatLng(centerCoord.lat, centerCoord.lng),
     zoom: zoomLevel,
     mapTypeId: mapType,
-    disableDefaultUI: true
+    disableDefaultUI: false
   });
 };
       
