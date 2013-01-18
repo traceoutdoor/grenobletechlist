@@ -1,11 +1,11 @@
 {
   "name": "Chambé-Carnet",
-  "address": "",
+  "address": "3 passage Honoré d'Urfé",
   "logo": "",
-  "lat": "",
-  "lng": "",
-  "email": "",
-  "website": "",
+  "lat": "45.565823",
+  "lng": "5.93104",
+  "email": "contact@chambe-carnet.com",
+  "website": "http://chambe-carnet.com",
   "description": "",
-  "twitter": []
+  "twitter": ["chambecarnet"]
 }
