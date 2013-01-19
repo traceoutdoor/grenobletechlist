@@ -1,0 +1,11 @@
+{
+  "name": "Silverpeas",
+  "address": "1 place firmin gautier 38000 Grenoble",
+  "logo": "http://www.silverpeas.org/files/logo-silverpeas-2010.png",
+  "lat": "45.1908049",
+  "lng": "5.7120499",
+  "email": "emmanuel.hugonnet@silverpeas.org",
+  "website": "http://www.silverpeas.com",
+  "description": "Silverpeas edite la solution de portail collaboratif libre (AGPL v3) Silverpeas qui vous permet de créer votre intranet en quelques clics.",
+  "twitter": ["silverpeas", "ehsavoie", "svuillet", "ebonnet"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "UShareSoft",
+  "address": "12 rue Ampere, 38000 Grenoble",
+  "logo": "http://www.usharesoft.com/assets/images/usharesoft_logo.png",
+  "lat": "45.185139",
+  "lng": "5.705595",
+  "email": "james.weir@usharesoft.com",
+  "website": "http://www.usharesoft.com",
+  "description": "UShareSoft helps cloud providers, enterprises and ISVs simplify software delivery to cloud. UShareSoft's UForge platform includes a VM factory and enterprise marketplace, helping automatically build and deliver business-ready applications to private, public or hybrid clouds.",
+  "twitter": ["usharesoft"]
+}
