@@ -1,0 +1,11 @@
+{
+  "name": "ForgeRock France",
+  "address": "55 Rue Blaise Pascal, 38330 Montbonnot St Martin",
+  "logo": "http://forgerock.com/wp-content/themes/forgerock/assets/images/logo.png",
+  "lat": "45.214357",
+  "lng": "5.80865",
+  "email": "ludovic.poitou@forgerock.com",
+  "website": "http://forgerock.com",
+  "description": "ForgeRock is the global open source vendor behind the Open Identity Stack,  identity-oriented middleware including OpenAM, OpenIDM and OpenDJ",
+  "twitter": ["ForgeRock_FR"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "YukuBook",
+  "address": "4 place Robert Schuman 38000 Grenoble",
+  "logo": "http://yukubook.com/sources/img/newlogo.png",
+  "lat": "45.1913549",
+  "lng": "5.712904",
+  "email": "margaux.raab@yukubook.com",
+  "website": "http://yukubook.com",
+  "description": "YukuBook est une plateforme proposant une toute nouvelle expérience de lecture ainsi qu’un grand choix de livres numériques.",
+  "twitter": ["YukuBook"]
+}

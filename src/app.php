@@ -26,7 +26,6 @@ $app->get('/api/{city}/{entity}', function ($city, $entity) use ($app) {
                 'logo' => (string) $content->{'logo'},
                 'lat' => (string) $content->{'lat'},
                 'lng' => (string) $content->{'lng'},
-                'email' => (string) $content->{'email'},
                 'website' => (string) $content->{'website'},
                 'description' => (string) $content->{'description'}
             );
