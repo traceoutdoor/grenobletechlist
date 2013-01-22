@@ -1,0 +1,11 @@
+{
+  "name": "Digitale",
+  "address": "6 allée de Bethléem 38610 Gières",
+  "logo": "http://digitale-interactive.fr/images/Logo-Digitale.png",
+  "lat": "45.1903699",
+  "lng": "5.7801068",
+  "email": "renaud.collin@digitale-interactive.fr",
+  "website": "http://www.digitale-interactive.fr",
+  "description": "Digitale - Solutions interactives axées sur de grandes surfaces tactiles multi-utilisateurs dans un environnement connecté.",
+  "twitter": ["DigitaleInterac", "RenaudColl"]
+}

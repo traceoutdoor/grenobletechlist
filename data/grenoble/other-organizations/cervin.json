@@ -1,0 +1,11 @@
+{
+  "name": "CERVIN",
+  "address": "12 rue Joseph REY, 38000 Grenoble",
+  "logo": "http://www.cervin.org/wiki/images/logo-carre-cervin-small.png",
+  "lat": "45.1860654",
+  "lng": "5.7170309",
+  "email": "fl@flet.fr",
+  "website": "http://cervin.info",
+  "description": "Le projet CERVIN (Centre de Ressources Virtuelles sur l'Innovation Numérique) a pour ambition de contribuer à l’acculturation du plus grand nombre, toutes générations confondues, à l’informatique et aux disciplines associées. Dans ce but il vise à créer un centre de ressources virtuelles sur l’innovation numérique, sans équivalent connu à ce jour.",
+  "twitter": ["f_letellier"]
+}

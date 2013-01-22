@@ -1,0 +1,11 @@
+{
+  "name": "Web In Alps",
+  "address": "2 ter rue des Violettes, 38100 Grenoble",
+  "logo": "http://www.webinalps.com/wp-content/uploads/wia-default-444x252.jpg",
+  "lat": "45.179042",
+  "lng": "5.710015",
+  "email": "severin@webinalps.com",
+  "website": "http://www.webinalps.com/",
+  "description": "Web In Alps connecte les acteurs du Web Alpin au travers diverses manifestations.",
+  "twitter": ["webinalps"]
+}
