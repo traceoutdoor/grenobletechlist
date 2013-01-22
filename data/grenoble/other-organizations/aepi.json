@@ -1,0 +1,11 @@
+{
+  "name": "AEPI",
+  "address": "1 place Firmin Gautier 38027 Grenoble ",
+  "logo": "http://www.grenoble-isere.com/extension/ezaepi/design/ezaepi/images/img/aepilogo.jpg",
+  "lat": "45.191958",
+  "lng": "5.711989",
+  "email": "m.thumas@grenoble-isere.com",
+  "website": "http://www.grenoble-isere.com/",
+  "description": "L’Agence d’Etudes et de Promotion de l’Isère (AEPI) est l'agence de développement économique de département de l'Isère.",
+  "twitter": ["Grenoble_Isere", "PEQUIGNATV", "Vinciane_AEPI", "NSielanczyk"]
+}

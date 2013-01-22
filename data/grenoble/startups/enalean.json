@@ -1,0 +1,11 @@
+{
+  "name": "Enalean",
+  "address": "95 Rue des Grives 38920 Crolles",
+  "logo": "http://www.isere-numerique.com/files/logo/societes/logo_enalean_7973.png",
+  "lat": "45.27171",
+  "lng": "5.89114",
+  "email": "manon.midy@enalean.com",
+  "website": "http://www.enalean.com",
+  "description": "Éditeur de Tuleap Open ALM, suite open-source de Gestion du Cycle de Vie des Applications, solution également appelé « forge logicielle » ou « ALM »",
+  "twitter": ["tuleapenalean", "vaceletm", "nterray"]
+}
