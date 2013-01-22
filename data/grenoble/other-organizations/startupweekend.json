@@ -1,0 +1,11 @@
+{
+  "name": "Startup Weekend",
+  "address": "4 rue Lafayette 38000 Grenoble",
+  "logo": "https://si0.twimg.com/profile_images/2422805027/xz64otmmsuokvxm8esa1.jpeg",
+  "lat": "45.19210",
+  "lng": "5.72965",
+  "email": "grenoble@startupweekend.org",
+  "website": "http://grenoble.startupweekend.org/",
+  "description": "1 minute pour pitcher et 54 heures pour en faire une réalité.",
+  "twitter": ["SWGrenoble"]
+}
