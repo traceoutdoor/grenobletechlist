@@ -1,0 +1,11 @@
+{
+  "name": "Kitpages",
+  "address": "155 cours Berriat, 38000 Grenoble",
+  "logo": "http://www.kitpages.fr/img/logo.jpg",
+  "lat": "45.184166",
+  "lng": "5.715542",
+  "email": "philippe.levan@kitpages.fr",
+  "website": "http://www.kitpages.fr",
+  "description": "Kitpages propose une expertise technique dans les développements web et mobiles. Nous fournissons des projets fiables, sécurisés et ergonomiques. Nous travaillons autant en sous-traitance que pour des clients finaux sur des problématiques techniques complexes. Services communautaires, intranets, extranets, boutiques en ligne, développements mobiles,...",
+  "twitter": ["plv"]
+}
