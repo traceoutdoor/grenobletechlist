@@ -1,0 +1,11 @@
+{
+  "name": "ColocArts",
+  "address": "1 rue André Réal, 38000 Grenoble",
+  "logo": "http://www.colocarts.com/logo_colocarts.jpg",
+  "lat": "45.184166",
+  "lng": "5.715542",
+  "email": "contact@colocarts.com",
+  "website": "http://www.colocarts.com",
+  "description": "Agence Nouveaux Médias et de communication. Création graphique, Web, 3D et vidéo.",
+  "twitter": ["colocarts"]
+}
