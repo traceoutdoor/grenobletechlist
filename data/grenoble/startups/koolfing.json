@@ -1,0 +1,11 @@
+{
+  "name": "KoolFing",
+  "address": "18, rue Chenoise 38000 Grenoble",
+  "logo": "http://www.koolfing.com/logos/logo-koolfing.png",
+  "lat": "45.193908",
+  "lng": "5.730719",
+  "email": "ivan.thomas@koolfing.com",
+  "website": "http://www.koolfing.com",
+  "description": "Nous développons et éditons des jeux vidéos sur plateformes iOS, Android, PC et Mac, ainsi que des outils de création de monde 3D interactifs pour le grand public.",
+  "twitter": ["KoolFing"]
+}
