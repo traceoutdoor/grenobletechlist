@@ -1,0 +1,11 @@
+{
+  "name": "AlpesJUG",
+  "address": "SUP Info, 16 rue Henri Barbusse, 38000 Grenoble",
+  "logo": "http://www.alpesjug.fr/wp-content/uploads/2009/12/AlpesJuggy.jpg",
+  "lat": "45.1571172",
+  "lng": "5.7364131",
+  "email": "jug-leaders@alpesjug.org",
+  "website": "http://www.alpesjug.org",
+  "description": "Le club des développeurs sur la Java Virtual Machine : Java, Groovy, Scala, JRuby, Jython et même Javascript ;)",
+  "twitter": ["@alpesjug", "@ehsavoie", "@loic_d", "@ludoMp"]
+}
