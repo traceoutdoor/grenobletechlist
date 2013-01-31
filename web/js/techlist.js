@@ -3,7 +3,6 @@ TechList.Map = TechList.Map || {};
 TechList.init = function(cityCoord) {
   TechList.Map.init(cityCoord, 'map', 12, google.maps.MapTypeId.ROADMAP);
   TechList.addStartups();
-  TechList.addEntreprisesNumeriques();
   TechList.addInvestors();
   TechList.addIncubators();
   TechList.addCoworkingSpaces();
@@ -12,10 +11,6 @@ TechList.init = function(cityCoord) {
 
 TechList.addStartups = function() {
   TechList.addOrganizations('Startups', 'startups', 'startups', 'F23F3F');
-};
-
-TechList.addEntreprisesNumeriques = function() {
-  TechList.addOrganizations('Entreprises numériques', 'entreprises-numeriques', 'startups', 'FF6A00');
 };
 
 TechList.addInvestors = function() {
