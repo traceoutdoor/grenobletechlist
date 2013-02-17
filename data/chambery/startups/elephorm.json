@@ -1,0 +1,11 @@
+{
+  "name": "Elephorm",
+  "address": "30 Allée du Lac d'Aiguebelette 73370 Le Bourget-du-Lac",
+  "logo": "http://statics.elephorm.com/boutique/skin/frontend/Elephorm/Elephorm_v2/images/logo_v3.gif",
+  "lat": "45.64631",
+  "lng": "5.866918",
+  "email": "contact@elephorm.com",
+  "website": "http://www.elephorm.com/",
+  "description": "Elephorm, société d'édition innovante, est spécialisée dans la formation par tutoriel vidéo sur les logiciels informatique créatifs (DVDROM Mac/PC, téléchargement, VOD par streaming vidéo). Les thèmes des formations sont l'infographie, la 3D, la photographie, le Web et ses langages, le multimédia, la vidéo et le Motion Design , la photographie, l'audionumérique ou encore l' informatique. La société réunit actuellement un réseau des meilleurs experts francophones sur ces sujets, alliant qualité pédagogique et expertise technique.",
+  "twitter": ["Elephorm"]
+}
