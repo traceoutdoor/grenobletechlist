@@ -1,11 +1,11 @@
 {
   "name": "Savoie Angels",
   "address": "Allée du Lac de Garde, 73370 Le Bourget-du-Lac",
-  "logo": "",
+  "logo": "https://www.dropbox.com/s/c444mai4v3v2kw8/savoie-angels.png",
   "lat": "45.64666",
   "lng": "5.869612",
   "email": "",
   "website": "http://www.savoie-angels.com/",
-  "description": "",
+  "description": "Savoie Angels facilite la relation entre investisseurs de proximité et entreprises à fort potentiel de développement, sur le sillon alpin et les territoires limitrophes.",
   "twitter": ["savoieangels"]
 }
