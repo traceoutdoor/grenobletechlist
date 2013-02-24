@@ -1,11 +1,11 @@
 {
   "name": "LZ@WEB",
   "address": "",
-  "logo": "",
+  "logo": "http://lzaweb.com/wp-content/themes/lzaweb/images/img-logo.png",
   "lat": "",
   "lng": "",
   "email": "",
   "website": "http://lzaweb.com/",
-  "description": "",
+  "description": "LZ@WEB propose ses services à toutes les structures souhaitant être présentes ou optimiser leur visibilité sur le web. Mon objectif est de définir avec vous une stratégie qui vous ressemble pour mettre en place des outils web  efficaces et adaptés à vos moyens financiers et humains.",
   "twitter": ["elzaweb"]
 }
