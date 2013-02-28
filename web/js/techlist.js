@@ -6,6 +6,7 @@ TechList.init = function(cityCoord) {
   TechList.addInvestors();
   TechList.addIncubators();
   TechList.addCoworkingSpaces();
+  TechList.addEpn();
   TechList.addOtherOrganizations();
 };
 
@@ -23,6 +24,10 @@ TechList.addIncubators = function() {
 
 TechList.addCoworkingSpaces = function() {
   TechList.addOrganizations('Espaces de coworking', 'coworking-spaces', 'coworking-spaces', '378BDE');
+};
+
+TechList.addEpn = function() {
+  TechList.addOrganizations('Espaces public numérique', 'epn', 'epn', '376BDE');
 };
 
 TechList.addOtherOrganizations = function() {
