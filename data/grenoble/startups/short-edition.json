@@ -1,0 +1,11 @@
+{
+  "name": "Short Edition",
+  "address": "12 rue Ampère, 38000 Grenoble",
+  "logo": "http://cdn.short-edition.com/uploads/f/logo-500px-2014-06-02-17-15-44.png",
+  "lat": "45.185166",
+  "lng": "5.705514",
+  "email": "contact@short-edition.com",
+  "website": "http://short-edition.com/",
+  "description": "Editeur communautaire de littérature courte.",
+  "twitter": ["short_edition"]
+}
