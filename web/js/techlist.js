@@ -6,7 +6,7 @@ TechList.init = function(cityCoord) {
   TechList.addInvestors();
   TechList.addIncubators();
   TechList.addCoworkingSpaces();
-  TechList.addEpn();
+  /*TechList.addEpn();*/
   TechList.addOtherOrganizations();
 };
 
