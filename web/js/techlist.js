@@ -1,21 +1,17 @@
 TechList.Map = TechList.Map || {};
       
 TechList.init = function(cityCoord) {
-  TechList.Map.init(cityCoord, 'map', 12, google.maps.MapTypeId.ROADMAP);
+  TechList.Map.init(cityCoord, 'map', 11, google.maps.MapTypeId.ROADMAP);
   TechList.addStartups();
-  TechList.addEntreprisesNumeriques();
   TechList.addInvestors();
   TechList.addIncubators();
   TechList.addCoworkingSpaces();
+  /*TechList.addEpn();*/
   TechList.addOtherOrganizations();
 };
 
 TechList.addStartups = function() {
   TechList.addOrganizations('Startups', 'startups', 'startups', 'F23F3F');
-};
-
-TechList.addEntreprisesNumeriques = function() {
-  TechList.addOrganizations('Entreprises numériques', 'entreprises-numeriques', 'startups', 'FF6A00');
 };
 
 TechList.addInvestors = function() {
@@ -28,6 +24,10 @@ TechList.addIncubators = function() {
 
 TechList.addCoworkingSpaces = function() {
   TechList.addOrganizations('Espaces de coworking', 'coworking-spaces', 'coworking-spaces', '378BDE');
+};
+
+TechList.addEpn = function() {
+  TechList.addOrganizations('Espaces public numérique', 'epn', 'epn', '376BDE');
 };
 
 TechList.addOtherOrganizations = function() {

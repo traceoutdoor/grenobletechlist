@@ -1,0 +1,11 @@
+{
+  "name": "CartONG",
+  "address": "Parc d’activité de Côte-Rousse 180 rue du Genevois 73000 Chambéry",
+  "logo": "http://www.cartong.org/sites/cartong/files/CartONG_logo_0.png",
+  "lat": "45.589160",
+  "lng": "5.923827",
+  "email": "",
+  "website": "http://www.cartong.org/fr",
+  "description": "Fondée en 2006, CartONG est une Organisation Non Gouvernementale engagée dans la promotion de l'utilisation des SIG (Systèmes d'Information Géographique) pour améliorer la collecte et l'analyse des données pour l'aide humanitaire d'urgence et le développement de programmes à travers le monde.",
+  "twitter": ["assocCartONG"]
+}

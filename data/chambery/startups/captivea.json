@@ -1,0 +1,11 @@
+{
+  "name": "Captivea",
+  "address": "159 Allée Albert Sylvestre, 73000 Chambéry",
+  "logo": "http://www.captivea.fr/images_captivea/logo/Logo_190.png",
+  "lat": "45.58258",
+  "lng": "5.910448",
+  "email": "contact@captivea.fr",
+  "website": "http://www.captivea.fr",
+  "description": "Société de services informatiques spécialisée dans les outils de gestion de la relation client : CRM / GRC, messagerie d'entreprise et outils collaboratifs. Partenaire et revendeur officiel SugarCRM, ZohoCRM, Google Apps, ...",
+  "twitter": ["captivea", "YannickBiet"]
+}

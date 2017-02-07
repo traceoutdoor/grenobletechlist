@@ -19,7 +19,7 @@ h3 {
 }
 
 #map {
-  height: 450px;
+  height: 640px;
 }
 
 #map img {
@@ -44,10 +44,6 @@ h3 {
   color: #F23F3F;
 }
 
-#entreprises-numeriques .icon-map-marker {
-  color: #FF6A00;
-}
-
 #investors .icon-map-marker {
   color: #4EA83E;
 }
@@ -58,6 +54,10 @@ h3 {
 
 #coworking-spaces .icon-map-marker {
   color: #378BDE;
+}
+
+#epn .icon-map-marker {
+  color: #376BDE;
 }
 
 #other-organizations .icon-map-marker {
